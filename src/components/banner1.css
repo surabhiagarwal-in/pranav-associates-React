@@ -1,0 +1,85 @@
+.banner1-container1 {
+  gap: var(--dl-space-space-unit);
+  display: flex;
+  position: relative;
+  align-items: center;
+}
+ 
+.banner1-max-width {
+  gap: var(--dl-space-space-oneandhalfunits);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.banner1-container2 {
+  gap: var(--dl-space-space-halfunit);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.banner1-title {
+  text-align: center;
+}
+ 
+.banner1-text1 {
+  text-align: center;
+  font-family: "Noto Sans";
+}
+ 
+.banner1-navlink {
+  text-decoration: none;
+}
+ 
+.banner1-text3 {
+  display: inline-block;
+}
+ 
+.banner1-text4 {
+  display: inline-block;
+}
+ 
+.banner1-text5 {
+  display: inline-block;
+}
+ 
+.banner1root-class-name {
+  fill: var(--dl-color-scheme-green100);
+  color: var(--dl-color-scheme-green100);
+  background-color: var(--dl-color-theme-accent2);
+}
+ 
+@media(max-width: 1600px) {
+  .banner1-title {
+    font-weight: bold;
+    padding-top: var(--dl-space-space-unit);
+    padding-bottom: var(--dl-space-space-unit);
+  }
+  .banner1-text1 {
+    font-family: Noto Sans;
+    padding-top: var(--dl-space-space-unit);
+    padding-bottom: var(--dl-space-space-unit);
+  }
+  .banner1root-class-name {
+    background-color: var(--dl-color-theme-accent2);
+  }
+}
+ 
+@media(max-width: 1200px) {
+  .banner1-text1 {
+    font-family: Noto Sans;
+  }
+}
+ 
+@media(max-width: 991px) {
+  .banner1-text1 {
+    font-family: Noto Sans;
+  }
+}
+ 
+@media(max-width: 479px) {
+  .banner1-text1 {
+    font-family: Noto Sans;
+  }
+}
