@@ -1,7 +1,4 @@
 [build]
-command = "npm run build" # Use CRACO's build script
+command = "REACT_APP_CONTEXT=$CONTEXT npm run build" # Use CRACO's build script
 publish = "build"         # Ensure this matches your CRA output folder
 base = "."                # Root directory of your repo/project
-
-[[plugins]]
-package = "@netlify/plugin-react" # Optional: If you use a React plugin for optimizations
