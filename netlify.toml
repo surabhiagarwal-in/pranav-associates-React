@@ -2,3 +2,8 @@
 command = "REACT_APP_CONTEXT=$CONTEXT npm run build" # Use CRACO's build script
 publish = "build"         # Ensure this matches your CRA output folder
 base = "."                # Root directory of your repo/project
+
+[dev]
+framework = "#custom"
+command = "npm start"
+targetPort = 3000
